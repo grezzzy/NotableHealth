@@ -12,7 +12,6 @@ module.exports = {
     for (let key in appts) {
       response.push([key, appts[key]]);
     }
-    console.log(response);
     return response;
   }
 }

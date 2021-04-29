@@ -39,8 +39,8 @@ const App = () => {
   }
 
   return (
-    <div>
-      <div id='docs'>
+    <div id='docs'>
+      <div>
         <h1>Doctors</h1>
         <ul>
           {buildDocs()}

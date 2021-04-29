@@ -13,7 +13,6 @@ app.get('/physicians', (req, res)=> {
 
 app.get('/appointments', (req,res)=> {
     let name = req.query.name;
-    console.log(name);
     //should be something to determine today's date for dataset
     let date = '3/1';
 
